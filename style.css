@@ -88,7 +88,6 @@ footer {
     margin: 20px;
     padding: 20px;
     font-size: 20px;
-    animation: down 15s;
     color: red;
     z-index: 2;
   }
