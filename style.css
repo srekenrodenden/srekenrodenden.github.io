@@ -12,7 +12,7 @@ body {
   margin: 20px;
   padding: 20px;
   font-size: 55px;
-  animation: down 15s;
+  /*animation: down 15s;*/
   color: red;
   z-index: 1;
 }
@@ -72,6 +72,14 @@ footer {
     transform: translateY(0);
   }
 }
+@keyframes fade-in {
+  from {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media (max-width: 500px) {
   #main-title {
     display: flex;
@@ -79,7 +87,7 @@ footer {
     justify-content: center;
     margin: 20px;
     padding: 20px;
-    font-size: 10px;
+    font-size: 20px;
     animation: down 15s;
     color: red;
     z-index: 2;
