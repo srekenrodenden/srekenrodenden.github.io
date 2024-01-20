@@ -91,7 +91,7 @@ footer {
     }
     50% {
       z-index:2;
-      transform: translateY(908px);
+      transform: translateY(1070px);
     }
     100% {
       z-index: 2;
